@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:@900&display=swap');
-  
+
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 body {
@@ -60,7 +60,7 @@ header {
     width: 160px;
     top: 4%;
     left: 1%;
-    
+
 }
 
 .navigation a {
@@ -84,7 +84,7 @@ header {
     transform-origin: right;
     transform: scaleX(0);
     transition: transform .5s;
-    
+
 
 }
 
@@ -197,7 +197,7 @@ header {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(20px);  
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
@@ -205,7 +205,7 @@ header {
     overflow: hidden;
     transform: scale(0);
     transition: transform .5s ease, height .2s ease;
-   
+
 }
 
 .contact.active-popup {
@@ -225,10 +225,10 @@ header {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(20px);  
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
-    
+
     align-items: center;
     overflow: hidden;
     transform: scale(0);
@@ -250,7 +250,7 @@ header {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(20px);  
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
@@ -395,7 +395,7 @@ header {
     right: 8px;
     font-size: 1.2em;
     color: black;
-    line-height: 57px;
+   line-height: 57px;
 }
 
 .remember-forgot {

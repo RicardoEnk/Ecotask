@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOTASK</title>
-    <link rel="stylesheet" href="resources/css/stylee.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('css/stylee.css') }}">
+
+    <img src="{{ asset('img/logo.png') }}" class="logo">
 </head>
 
 <body>
-    <img src="img/logo.png" class="logo">
+    <img src="{{ asset('img/logo.png') }}" class="logo">
 
     <div class="notifications-icon" onclick="showNotifications()">
-        <i class="fas fa-bell"></i> 
+        <i class="fas fa-bell"></i>
         <div class="notification-badge" id="notification-badge"></div>
     </div>
 
     <button class="toggle-dark-mode" onclick="toggleDarkMode()">
-        <i class="fas fa-moon"></i> 
+        <i class="fas fa-moon"></i>
         <i class="fas fa-sun"></i>
       </button>
 
@@ -34,8 +35,8 @@
           <li><a href="index.php">Cerrar sesión</a></li>
         </ul>
       </div>
-    
-    
+
+
     <div class="container">
     <p class="points-text">Puntos acumulados: <span id="total-points">0</span></p>
     <div class="task">
@@ -50,7 +51,7 @@
         <button class="submit-button" onclick="submitFile(1)">Enviar archivo</button>
       </div>
     </div>
-    
+
       <div class="task">
         <img src="/img/plantar.png" class="img">
         <div class="task-content">
@@ -63,7 +64,7 @@
         <button class="submit-button" onclick="submitFile(2)">Enviar archivo</button>
       </div>
     </div>
-    
+
       <div class="task">
         <img src="/img/tbasura.jpg" class="img">
         <div class="task-content">
@@ -76,7 +77,7 @@
         <button class="submit-button" onclick="submitFile(3)">Enviar archivo</button>
       </div>
     </div>
-    
+
       <div class="task">
         <img src="img/desenchufar.jpg" class="img">
         <div class="task-content">
@@ -89,9 +90,9 @@
         <button class="submit-button" onclick="submitFile(4)">Enviar archivo</button>
       </div>
     </div>
-    
+
       <script src="scriptt.js"></script>
-      
+
     </div>
 </body>
 </html>
