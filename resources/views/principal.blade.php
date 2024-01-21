@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOTASK</title>
-    <link rel="stylesheet" href="{{ asset('css/stylee.css') }}">
+    <link rel="stylesheet" href="/css/stylee.css">
 
     <img src="{{ asset('img/logo.png') }}" class="logo">
 </head>
@@ -91,7 +91,7 @@
       </div>
     </div>
 
-      <script src="scriptt.js"></script>
+    <script src="{{ asset('js/scriptt.js') }}"></script>
 
     </div>
 </body>

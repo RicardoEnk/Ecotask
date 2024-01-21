@@ -16,9 +16,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: center;
     min-height: 100vh;
-    background: url('img/fondo3.jpg') no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }

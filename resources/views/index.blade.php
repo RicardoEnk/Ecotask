@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOTASK</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{asset('css/stylee.css')}}">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body style="background-image: url('{{ asset("img/fondo3.jpg") }}');">
     
     <img src="{{ asset('img/logo.png') }}" class="logo">
     <header>
@@ -143,7 +143,7 @@
     </div>
 
 
-    <script src="../js/script.js"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
