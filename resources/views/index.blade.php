@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOTASK</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset('css/stylee.css')}}">
 </head>
 
 <body>
     
-    <img src="img/logo.png" class="logo">
+    <img src="{{ asset('img/logo.png') }}" class="logo">
     <header>
 
         <nav class="navigation">
@@ -134,7 +134,7 @@
             motivación. <br>
 
             ECOTASK no solo busca generar un impacto positivo en el medio ambiente, sino también en la vida de los
-            usuarios. Nuestra plataforma promueve una mayor conciencia ambiental y fomenta un estilo de vida sostenible,
+            usuarios. Nuestra plataforma promueve una mayor conciencia ambiental y fomenta un    de vida sostenible,
             al tiempo que ofrece una oportunidad real para ganar dinero mientras se contribuye a la protección del
             planeta. <br>
 
@@ -143,7 +143,7 @@
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="../js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
