@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body style="background-image: url('{{ asset("img/fondo3.jpg") }}');">
+<body style="background-image: url('{{ asset('img/fondo3.jpg') }}')">
     
     <img src="{{ asset('img/logo.png') }}" class="logo">
     <header>
@@ -54,7 +54,7 @@
                         Recuérdame</label>
                     <a href="#">¿Olvidaste tu contraseña?</a>
                 </div>
-                <button type="submit" name="iniciar_sesion" class="btn">Iniciar sesión</button>
+               <a><button type="submit" name="iniciar_sesion" class="btn" href="{{ route('principal') }}">Iniciar sesión</button></a>
                 <div class="login-register">
                     <p>¿No tienes una cuenta?<a href="#" class="register-link"> Regístrate</a></p>
                 </div>
